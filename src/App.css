@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+.jobs-cotainer{
+  border: 1px solid #d8dee2;
+  border-radius: 4px;
+  padding: 20px;
+  cursor: pointer
+}
+
+.job-name{
+  font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #333;
+    max-width: 310px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.company-name{
+  font-weight: 600;
+    font-size: 13px;
+    line-height: 18px;
+    color: #333;
+    opacity: .8;
+}
+
+.job-description{
+  font-weight: 400;
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.mt-2{
+  margin-top: .5rem;
+}
+
+.error-message-conatiner{
+  text-align: center;
+  padding: 20px;
+  color: red;
+  font-weight: 600;
+    font-size: 25px;
+}
